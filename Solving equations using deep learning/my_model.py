@@ -10,7 +10,6 @@ class MyModel(nn.Module):
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     def forward(self, x):
-        # 将c转换为PyTorch张量
         x = torch.tensor(x)
         out = self.fc1(x)
         out = torch.relu(out)
