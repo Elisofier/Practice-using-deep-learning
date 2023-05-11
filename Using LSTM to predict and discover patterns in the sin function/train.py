@@ -29,7 +29,7 @@ if __name__ == "__main__":
     truth = []
     predict = []
     # 模型训练
-    num_epochs = 5
+    num_epochs = 1
     for epoch in range(num_epochs):
         for i, (inputs, labels) in enumerate(dataloader):
             inputs = inputs.unsqueeze(-1)
