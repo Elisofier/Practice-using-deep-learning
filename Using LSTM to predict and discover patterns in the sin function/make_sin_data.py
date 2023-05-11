@@ -1,7 +1,7 @@
 import math
 
 # 生成sin函数的值
-x_values = [i / 10 for i in range(0, 1000)]
+x_values = [i / 10 for i in range(0, 600)]
 y_values = [math.sin(x) for x in x_values]
 
 # 将结果写入文件

@@ -54,7 +54,7 @@ if __name__ == "__main__":
     plt.scatter(range(len(predict)), predict, c='red', label='Predict')
 
     # 添加标题和坐标轴标签
-    plt.title("Truth-Predict Scatter Plot")
+    plt.title("Truth-Predict In Sin Train")
     plt.xlabel("Index")
     plt.ylabel("Value")
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
     plt.scatter(range(len(predict)), predict, c='red', label='Predict')
 
     # 添加标题和坐标轴标签
-    plt.title("Truth-Predict Scatter Plot")
+    plt.title("Truth-Predict In Cos Test")
     plt.xlabel("Index")
     plt.ylabel("Value")
     # 添加图例
